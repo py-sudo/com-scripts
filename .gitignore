@@ -1,0 +1,6 @@
+#node lib
+node_modules
+
+#enviroment var
+.env
+

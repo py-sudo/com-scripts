@@ -1,0 +1,21 @@
+{
+  "name": "mongo-scripts",
+  "version": "1.0.0",
+  "description": "scripts for mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev node ./src/server.js",
+    "prod": "cross-env NODE_ENV=prod node ./src/server.js",
+    "test": "cross-env NODE_ENV=test node ./src/server.js"
+
+  },
+  "author": "PEIYI",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.5"
+  }
+}
