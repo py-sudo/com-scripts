@@ -6,8 +6,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 
-const index = require('./Routes');
-const doctor = require("./Routes/doctor");
+const index = require('./routes');
+const doctor = require("./routes/doctor");
 const path = require('path');
 
 //middleware

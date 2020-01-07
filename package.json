@@ -7,7 +7,6 @@
     "dev": "cross-env NODE_ENV=dev node ./src/server.js",
     "prod": "cross-env NODE_ENV=prod node ./src/server.js",
     "test": "cross-env NODE_ENV=test node ./src/server.js"
-
   },
   "author": "PEIYI",
   "license": "ISC",
